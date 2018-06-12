@@ -1,19 +1,28 @@
 <Payload xmlns="http://javaops.ru"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://javaops.ru payload.xsd">
+    <Projects>
+        <Project name="topjava">
+            <Description>Описание проекта topjava</Description>
+            <Group name="topjava01" type="FINISHED"/>
+            <Group name="topjava02" type="CURRENT"/>
+            <Group name="topjava03" type="REGISTERING"/>
+        </Project>
+        <Project name="masterjava">
+            <Description>Описание проекта masterjava</Description>
+            <Group name="masterjava01" type="FINISHED"/>
+            <Group name="masterjava02" type="CURRENT"/>
+        </Project>
+        <Project name="basejava">
+            <Description>Описание проекта basejava</Description>
+            <Group name="basejava01" type="REGISTERING"/>
+        </Project>
+    </Projects>
     <Users>
-        <User flag="active" city="kiv">
-            <email>gmail@gmail.com</email>
-            <fullName>Full Name</fullName>
-        </User>
-        <User flag="superuser" city="spb">
-            <email>admin@javaops.ru</email>
-            <fullName>Admin</fullName>
-        </User>
-        <User flag="deleted" city="spb">
-            <email>mail@yandex.ru</email>
-            <fullName>Deleted</fullName>
-        </User>
+        <User flag="active" city="kiv" email="gmail@gmail.com" groups="topjava03 basejava01 ">Full Name</User>
+        <User flag="superuser" city="spb" email="admin@javaops.ru" groups="topjava02 masterjava02 topjava03 basejava01">Admin</User>
+        <User flag="deleted" city="spb" email="mail@yandex.ru" groups="topjava01">Deleted</User>
+        <User flag="active" city="mnsk" email="mail2@yandex.ru" groups="topjava01 topjava02">Deleted</User>
     </Users>
     <Cities>
         <City id="spb">Санкт-Петербург</City>
