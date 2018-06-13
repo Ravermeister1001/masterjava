@@ -19,7 +19,7 @@
         </Project>
     </Projects>
     <Users>
-        <User flag="active" city="kiv" email="gmail@gmail.com" groups="topjava03 basejava01 ">Full Name</User>
+        <User flag="active" city="kiv" email="gmail@gmail.com" groups="topjava03 basejava01">Full Name</User>
         <User flag="superuser" city="spb" email="admin@javaops.ru" groups="topjava02 masterjava02 topjava03 basejava01">Admin</User>
         <User flag="deleted" city="spb" email="mail@yandex.ru" groups="topjava01">Deleted</User>
         <User flag="active" city="mnsk" email="mail2@yandex.ru" groups="topjava01 topjava02">Deleted</User>
