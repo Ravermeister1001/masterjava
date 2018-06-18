@@ -1,4 +1,4 @@
-package ru.javaops.masterjava.service;
+package ru.javaops.masterjava.mailservice.service;
 
 import java.util.ArrayList;
 import java.util.List;

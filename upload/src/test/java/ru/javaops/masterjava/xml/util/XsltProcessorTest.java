@@ -9,7 +9,7 @@ public class XsltProcessorTest {
     @Test
     public void transform() throws Exception {
         try (InputStream xslInputStream = Resources.getResource("cities.xsl").openStream();
-             InputStream xmlInputStream = Resources.getResource("payload.xml").openStream()) {
+             InputStream xmlInputStream = Resources.getResource("src/test/resources/payload.xml").openStream()) {
 
             XsltProcessor processor = new XsltProcessor(xslInputStream);
             System.out.println(processor.transform(xmlInputStream));

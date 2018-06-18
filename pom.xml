@@ -11,14 +11,18 @@
     <name>Master Java</name>
     <url>https://github.com/JavaOPs/masterjava</url>
 
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
     <modules>
         <module>upload</module>
         <module>common</module>
-<!--
         <module>webapp</module>
         <module>mail-service</module>
         <module>mail-api</module>
         <module>test</module>
--->
     </modules>
 </project>
